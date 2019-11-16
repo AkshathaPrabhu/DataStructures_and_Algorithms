@@ -1,4 +1,4 @@
-package main.Arrays;
+package arrays;
 
 /**
  * Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
