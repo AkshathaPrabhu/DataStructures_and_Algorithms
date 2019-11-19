@@ -1,16 +1,6 @@
 package binary_tree;
 
-class Node {
-    int key;
-    Node left, right;
-
-    public Node(int item) {
-        key = item;
-        left = right = null;
-    }
-}
-
-// A Java program to introduce Binary Tree 
+// A Java program to introduce Binary Tree
 class BinaryTree {
     // Root of Binary Tree 
     Node root;
