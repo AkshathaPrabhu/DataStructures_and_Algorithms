@@ -3,7 +3,7 @@ package binary_tree;
 
 /* Class to find size of Binary Tree */
 class Size {
-    Node root;
+    private Node root = null;
 
     public static void main(String args[]) {
         /* creating a binary tree and entering the nodes */
@@ -23,7 +23,7 @@ class Size {
 //    }
 
     /* computes number of nodes in tree */
-    int size(Node node) {
+    private int size(Node node) {
         if (node == null)
             return 0;
         else

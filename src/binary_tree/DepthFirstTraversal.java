@@ -1,30 +1,27 @@
 package binary_tree;// Java program for different tree traversals
 
-class BinaryTreeTypes {
+class BinaryTreeDFTraversalTypes {
     // Root of Binary Tree
     Node_bt root;
 
-    BinaryTreeTypes() {
-        root = null;
-    }
 
 
     // Driver method
     public static void main(String[] args) {
-        BinaryTreeTypes tree = new BinaryTreeTypes();
+        BinaryTreeDFTraversalTypes tree = new BinaryTreeDFTraversalTypes();
         tree.root = new Node_bt(1);
         tree.root.left = new Node_bt(2);
         tree.root.right = new Node_bt(3);
         tree.root.left.left = new Node_bt(4);
         tree.root.left.right = new Node_bt(5);
 
-        System.out.println("Preorder traversal of binary tree is ");
+        System.out.println("Preorder traversal [root-left-right] of binary tree is ");
         tree.printPreorder();
 
-        System.out.println("\nInorder traversal of binary tree is ");
+        System.out.println("\nInorder traversal [left-root-right] of binary tree is ");
         tree.printInorder();
 
-        System.out.println("\nPostorder traversal of binary tree is ");
+        System.out.println("\nPostorder traversal [left-right-root] of binary tree is ");
         tree.printPostorder();
     }
 
