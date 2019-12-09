@@ -1,4 +1,4 @@
-package binary_tree;
+package DataStructures.binary_tree;
 
 
 /* Class to find size of Binary Tree */

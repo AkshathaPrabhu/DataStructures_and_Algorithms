@@ -1,4 +1,4 @@
-package binary_tree;
+package DataStructures.binary_tree;
 
 // A Java program to introduce Binary Tree
 class BinaryTree {

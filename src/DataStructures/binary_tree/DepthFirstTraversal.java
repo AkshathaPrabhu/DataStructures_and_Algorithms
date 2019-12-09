@@ -1,4 +1,4 @@
-package binary_tree;// Java program for different tree traversals
+package DataStructures.binary_tree;// Java program for different tree traversals
 
 class BinaryTreeDFTraversalTypes {
     // Root of Binary Tree
@@ -37,7 +37,7 @@ class BinaryTreeDFTraversalTypes {
         // then recur on right subtree
         printPostorder(Node_bt.right);
 
-        // now deal with the binary_tree.Node_bt
+        // now deal with the DataStructures.binary_tree.Node_bt
         System.out.print(Node_bt.key + " ");
     }
 
@@ -49,7 +49,7 @@ class BinaryTreeDFTraversalTypes {
         /* first recur on left child */
         printInorder(Node_bt.left);
 
-        /* then print the data of binary_tree.Node_bt */
+        /* then print the data of DataStructures.binary_tree.Node_bt */
         System.out.print(Node_bt.key + " ");
 
         /* now recur on right child */
@@ -61,7 +61,7 @@ class BinaryTreeDFTraversalTypes {
         if (Node_bt == null)
             return;
 
-        /* first print data of binary_tree.Node_bt */
+        /* first print data of DataStructures.binary_tree.Node_bt */
         System.out.print(Node_bt.key + " ");
 
         /* then recur on left sutree */
@@ -87,7 +87,7 @@ class BinaryTreeDFTraversalTypes {
 }
 
 
-/* Class containing left and right child of current binary_tree.Node_bt and key value*/
+/* Class containing left and right child of current DataStructures.binary_tree.Node_bt and key value*/
 class Node_bt {
     int key;
     Node_bt left;
